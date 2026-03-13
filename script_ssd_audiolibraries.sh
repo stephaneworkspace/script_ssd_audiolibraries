@@ -12,25 +12,18 @@ mkdir -p "$DEST"
 
 # Tableau des librairies à déplacer depuis Application Support
 libs=(
-  "Avid"
-  "D16 Group"
-  "DS Audio"
-  "iZotope"
-  "Kilohearts"
-  "Minimal"
-  "Native Instruments"
-  "Output"
-  "Propellerhead Software"
+  "Avid"                            # 10 go
+  "iZotope"                         # 1 go
+  "Kilohearts"                      # 2.6 go
+  "Native Instruments"              # 3.3 go
+  "Propellerhead Software"          # 3.8 go
   "Spectrasonics"
-  "Sonic Academy"
-  "UVI"
-  "UVISoundBanks"
-  "Waves"
+  "UVISoundBanks"                   # 50 go
 )
 
 # Dossiers “hors Application Support” (ex: Arturia)
 special_libs=(
-  "/Library/Arturia"
+  "/Library/Arturia"                # 50 go
 )
 
 # 🔹 Vérifie si RAR est installé
